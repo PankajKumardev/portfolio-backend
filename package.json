@@ -1,0 +1,16 @@
+{
+  "name": "your-project-name",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node api/index.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^6.0.0",
+    "cors": "^2.8.5",
+    "body-parser": "^1.19.0",
+    "zod": "^3.11.6",
+    "@vercel/node": "^1.11.0"
+  }
+}
